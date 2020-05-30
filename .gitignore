@@ -3,3 +3,7 @@
 
 # public files
 /public/
+
+TestData.csv
+
+newrelic.js
