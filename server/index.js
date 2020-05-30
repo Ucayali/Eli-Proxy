@@ -22,8 +22,8 @@ app.use('/api/related_products/:id', createProxyMiddleware({
   changeOrigin: true,
 }));
 
-app.use('/api/allreviews', createProxyMiddleware({
-  target: 'http://18.212.184.37:3004/',
+app.use('/api/allreviews/', createProxyMiddleware({
+  target: 'http://localhost:3004/',
   changeOrigin: true,
 }));
 
